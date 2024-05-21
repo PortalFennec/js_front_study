@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate,NavLink } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { todoAdd } from './actions';
 
@@ -10,7 +10,7 @@ class ToDoTaskAddInner extends React.Component {
 		
 		this.state = {
 			name: '',
-			decription: ''
+			description: ''
 		}
 		
 		this.onNameChange = this.onNameChange.bind(this);
